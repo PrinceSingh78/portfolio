@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Kumar Singh - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="images__1_-removebg-preview.png" alt="Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <button class="theme-toggle" onclick="toggleTheme()">DARK</button>
+        </nav>
+    </header>
+    
+
+    <section id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>Hello, I'm Prince Kumar Singh</h2>
+                <p>Web Developer | Designer | Problem Solver</p>
+            </div>
+            <div class="hero-image">
+                <img src="photomy.png" alt="Hero Image">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am Prince Kumar Singh, a 3rd-year engineering student at MCKV Institute of Engineering, pursuing my degree in Information Technology. I have a strong passion for technology, web development, and problem-solving. Over the past few years, I’ve gained hands-on experience in designing and building responsive websites and applications, using modern tools and frameworks.
+        </p>
+        <p>
+            I am constantly learning new technologies to enhance my skill set, and I enjoy working on innovative projects that challenge my creativity and technical expertise. My goal is to contribute to projects that have a real-world impact and help solve everyday problems through technology.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>React</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Node.js</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>MongoDB</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>A web application built using React.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>A responsive portfolio website.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>A custom-built e-commerce website.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you want to collaborate or just say hello, feel free to drop a message!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Prince Kumar Singh. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
